@@ -1,0 +1,27 @@
+ORGANIZAAULA — PROTÓTIPO DE HORÁRIOS ESCOLARES
+
+O QUE É
+Uma demonstração web simples para o TCC sobre organização dos horários de aula dos professores. O protótipo permite cadastrar professores, disciplinas e turmas, montar aulas, identificar conflitos e consultar a grade semanal.
+
+COMO ABRIR
+1. Abra o arquivo index.html com um navegador atualizado (Chrome, Edge ou Firefox).
+2. Não é necessário instalar programas, criar conta ou ter internet.
+3. Os dados ficam guardados no armazenamento local do navegador usado. Para apresentar em outro computador, copie a pasta outputs e abra o index.html nele.
+
+COMO TESTAR NA APRESENTAÇÃO
+1. Na página inicial, mostre o aviso “Protótipo • Dados fictícios” e os exemplos já cadastrados.
+2. Abra “Professores” para mostrar os docentes e suas disciplinas. Você pode cadastrar um professor em “Novo professor”.
+3. Abra “Disciplinas” e “Turmas” para mostrar os cadastros. Os novos nomes de disciplinas e turmas aparecem nas opções da montagem da aula.
+4. Clique em “Montar aula”. Escolha professor, disciplina, turma, dia e período. Um horário livre será incluído na grade.
+5. Para demonstrar a validação, tente marcar outra aula para o mesmo professor no mesmo dia e período, ou escolha uma turma que já tenha aula naquele horário. O sistema informa o conflito e não salva a nova aula.
+6. Abra “Grade semanal” e alterne entre a visualização por turma e por professor. A página inicial também permite filtrar a grade por turma.
+7. Use “Restaurar exemplos” antes de uma nova apresentação para voltar ao conjunto demonstrativo original.
+
+REGRAS E LIMITES DO PROTÓTIPO
+- A grade usa cinco dias (segunda a sexta) e cinco períodos ilustrativos. Os períodos não representam horários oficiais de nenhuma escola.
+- Um professor não pode ter duas aulas no mesmo dia e período. Uma turma também não pode ter duas aulas nesse horário.
+- A demonstração não tem banco de dados compartilhado, login, edição de aulas já cadastradas nem sincronização entre computadores.
+- Os dados de exemplo são fictícios. Substitua-os por informações autorizadas pela escola somente se isso for apropriado ao trabalho.
+
+IDEIA DE FALA PARA APRESENTAR
+“Este protótipo demonstra uma forma de organizar os horários de aula. Primeiro cadastramos professores, disciplinas e turmas. Depois escolhemos o dia e o período de cada aula. Se o professor ou a turma já estiver ocupado naquele horário, o sistema avisa e não permite salvar. A grade semanal ajuda a conferir como as aulas foram distribuídas. Os dados exibidos são fictícios e servem apenas para demonstrar a proposta do nosso TCC.”
